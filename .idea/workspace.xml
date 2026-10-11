@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2807959-a794-43b2-bdc4-0b1f8570e955" name="Changes" comment="First run">
+    <list default="true" id="c2807959-a794-43b2-bdc4-0b1f8570e955" name="Changes" comment="Chackpoint add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -15,6 +15,13 @@
   </component>
   <component name="EmbeddingIndexingInfo">
     <option name="cachedIndexableFilesCount" value="7" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,23 +44,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000001651179156" />
-      <entry key="MS500" value="1.0440107570910024" />
-      <entry key="S2" value="1.4580255552658992" />
-      <entry key="S5" value="1.7317384632105592" />
-      <entry key="S10" value="1.8554171281956886" />
-      <entry key="S30" value="1.9492763198495857" />
-      <entry key="S60" value="1.9743081236701476" />
-      <entry key="M2" value="1.9870707193412307" />
-      <entry key="M5" value="1.9982989541553708" />
-      <entry key="M10" value="2.095116525446204" />
-      <entry key="M15" value="2.350290726605212" />
-      <entry key="M30" value="3.7466934144477717" />
-      <entry key="H1" value="6.827072187348977" />
-      <entry key="H2" value="10.587252604178175" />
-      <entry key="H4" value="13.65490982817393" />
-      <entry key="D1" value="17.165125893086337" />
-      <entry key="W1" value="17.87767545337496" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000015430397435" />
+      <entry key="S60" value="1.001754709735526" />
+      <entry key="M2" value="1.0613300928679812" />
+      <entry key="M5" value="1.8505410326805989" />
+      <entry key="M10" value="4.062812779244744" />
+      <entry key="M15" value="6.037836610293694" />
+      <entry key="M30" value="10.107396789596836" />
+      <entry key="H1" value="15.120224428200904" />
+      <entry key="H2" value="20.45456278274986" />
+      <entry key="H4" value="24.77161330431038" />
+      <entry key="D1" value="29.79020256024161" />
+      <entry key="W1" value="30.82233123818302" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -75,23 +82,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.45691579849662567" />
-      <entry key="MS500" value="0.8924233874113142" />
-      <entry key="S2" value="1.4014186717378854" />
-      <entry key="S5" value="1.7044225928749839" />
-      <entry key="S10" value="1.8407059331581066" />
-      <entry key="S30" value="1.9441061821726624" />
-      <entry key="S60" value="1.9716875268600362" />
-      <entry key="M2" value="1.9857513612440796" />
-      <entry key="M5" value="1.997755799999769" />
-      <entry key="M10" value="2.0946804781075192" />
-      <entry key="M15" value="2.3497597772530985" />
-      <entry key="M30" value="3.746015432525245" />
-      <entry key="H1" value="6.826464550731461" />
-      <entry key="H2" value="10.586833775719821" />
-      <entry key="H4" value="13.654661959350012" />
-      <entry key="D1" value="17.165078137073188" />
-      <entry key="W1" value="17.877668456411623" />
+      <entry key="MS100" value="0.6372803136596311" />
+      <entry key="MS500" value="0.9138314502294005" />
+      <entry key="S2" value="0.9777245612102328" />
+      <entry key="S5" value="0.9910295632640791" />
+      <entry key="S10" value="0.995504677670617" />
+      <entry key="S30" value="0.9985008046129519" />
+      <entry key="S60" value="1.0009775521944948" />
+      <entry key="M2" value="1.0605070171427835" />
+      <entry key="M5" value="1.8488976048265302" />
+      <entry key="M10" value="4.061172255613831" />
+      <entry key="M15" value="6.036375010731885" />
+      <entry key="M30" value="10.106219910470697" />
+      <entry key="H1" value="15.119323539834557" />
+      <entry key="H2" value="20.453960513598965" />
+      <entry key="H4" value="24.77125714283958" />
+      <entry key="D1" value="29.790133459532093" />
+      <entry key="W1" value="30.82232109477777" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -138,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1791720550052</updated>
-      <workItem from="1791720550679" duration="9270000" />
+      <workItem from="1791720550679" duration="11904000" />
     </task>
     <task id="LOCAL-00001" summary="First run">
       <option name="closed" value="true" />
@@ -148,7 +155,23 @@
       <option name="project" value="LOCAL" />
       <updated>1791721656766</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Color &amp; Some Design Add">
+      <option name="closed" value="true" />
+      <created>1791730960685</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1791730960685</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Chackpoint add">
+      <option name="closed" value="true" />
+      <created>1791731081148</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1791731081148</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,9 +179,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First run" />
-    <option name="LAST_COMMIT_MESSAGE" value="First run" />
+    <MESSAGE value="Color &amp; Some Design Add" />
+    <MESSAGE value="Chackpoint add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chackpoint add" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TextAnalyzer$main.coverage" NAME="main Coverage Results" MODIFIED="1791730829920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TextAnalyzer$main.coverage" NAME="main Coverage Results" MODIFIED="1791732816499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
