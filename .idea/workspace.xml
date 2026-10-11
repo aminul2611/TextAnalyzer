@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2807959-a794-43b2-bdc4-0b1f8570e955" name="Changes" comment="Live Server" />
+    <list default="true" id="c2807959-a794-43b2-bdc4-0b1f8570e955" name="Changes" comment="Live Server update version 0.1">
+      <change afterPath="$PROJECT_DIR$/live_input/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +21,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -41,23 +47,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000002154502" />
-      <entry key="MS500" value="1.0196528957546918" />
-      <entry key="S2" value="1.5538108695380024" />
-      <entry key="S5" value="2.180218484015618" />
-      <entry key="S10" value="2.5327491090737055" />
-      <entry key="S30" value="2.829285733868309" />
-      <entry key="S60" value="2.9126150336966843" />
-      <entry key="M2" value="2.957233226533674" />
-      <entry key="M5" value="3.114357437461583" />
-      <entry key="M10" value="4.076855583791223" />
-      <entry key="M15" value="5.4991460426256555" />
-      <entry key="M30" value="9.507474896977635" />
-      <entry key="H1" value="15.133634411943005" />
-      <entry key="H2" value="21.323800015730395" />
-      <entry key="H4" value="26.446007118018088" />
-      <entry key="D1" value="32.518398607465286" />
-      <entry key="W1" value="33.781999199583595" />
+      <entry key="MS100" value="1.234880687303503" />
+      <entry key="MS500" value="1.7484614934134592" />
+      <entry key="S2" value="1.9332845304449664" />
+      <entry key="S5" value="2.1379565484397203" />
+      <entry key="S10" value="2.7842394487735183" />
+      <entry key="S30" value="4.877690184699741" />
+      <entry key="S60" value="6.125169982538245" />
+      <entry key="M2" value="6.970409508162331" />
+      <entry key="M5" value="7.7878182617509415" />
+      <entry key="M10" value="8.877073881616612" />
+      <entry key="M15" value="10.147543306534732" />
+      <entry key="M30" value="14.070358517054803" />
+      <entry key="H1" value="20.129790163871395" />
+      <entry key="H2" value="27.10146080785121" />
+      <entry key="H4" value="33.03295997398797" />
+      <entry key="D1" value="40.22260376286169" />
+      <entry key="W1" value="41.73793934103341" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -79,23 +85,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9330329936323942" />
-      <entry key="MS500" value="1.0057688565155554" />
-      <entry key="S2" value="1.5492638599243973" />
-      <entry key="S5" value="2.1778261745117566" />
-      <entry key="S10" value="2.53138406989479" />
-      <entry key="S30" value="2.8287824355007927" />
-      <entry key="S60" value="2.912356534890122" />
-      <entry key="M2" value="2.9571010766747747" />
-      <entry key="M5" value="3.114187213515421" />
-      <entry key="M10" value="4.076390658554892" />
-      <entry key="M15" value="5.498521943089633" />
-      <entry key="M30" value="9.506707987732158" />
-      <entry key="H1" value="15.132906954413036" />
-      <entry key="H2" value="21.323258249620523" />
-      <entry key="H4" value="26.44566890351495" />
-      <entry key="D1" value="32.51832995256742" />
-      <entry key="W1" value="33.7819890430887" />
+      <entry key="MS100" value="1.173313747116601" />
+      <entry key="MS500" value="1.7295240875868967" />
+      <entry key="S2" value="1.9279575162057845" />
+      <entry key="S5" value="2.135624534442289" />
+      <entry key="S10" value="2.7827798622325917" />
+      <entry key="S30" value="4.876888991663907" />
+      <entry key="S60" value="6.124675614081392" />
+      <entry key="M2" value="6.970130512419189" />
+      <entry key="M5" value="7.787685373812974" />
+      <entry key="M10" value="8.876886427095906" />
+      <entry key="M15" value="10.147240887214979" />
+      <entry key="M30" value="14.069841753551184" />
+      <entry key="H1" value="20.129194727241572" />
+      <entry key="H2" value="27.100969736889745" />
+      <entry key="H4" value="33.032637064365645" />
+      <entry key="D1" value="40.222535287950485" />
+      <entry key="W1" value="41.73792913468419" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -109,6 +115,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -120,14 +127,22 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="J:\Code\TextAnalyzer" />
+      <recent name="J:\Code\TextAnalyzer\live_input" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -142,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1791720550052</updated>
-      <workItem from="1791720550679" duration="12536000" />
+      <workItem from="1791720550679" duration="13568000" />
     </task>
     <task id="LOCAL-00001" summary="First run">
       <option name="closed" value="true" />
@@ -176,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791733613232</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Live Server update version 0.1">
+      <option name="closed" value="true" />
+      <created>1791734743632</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1791734743632</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +210,8 @@
     <MESSAGE value="Color &amp; Some Design Add" />
     <MESSAGE value="Chackpoint add" />
     <MESSAGE value="Live Server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Live Server" />
+    <MESSAGE value="Live Server update version 0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Live Server update version 0.1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TextAnalyzer$main.coverage" NAME="main Coverage Results" MODIFIED="1791732816499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

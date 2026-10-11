@@ -1,6 +1,13 @@
 import streamlit as st
 import unicodedata
-from st_keyup import st_keyup
+from pathlib import Path
+import streamlit.components.v1 as components
+
+
+live_input = components.declare_component(
+    "live_multiline_input",
+    path=str(Path(__file__).parent / "live_input"),
+)
 
 
 # ---------- Page ----------
@@ -299,14 +306,10 @@ with input_column:
             unsafe_allow_html=True,
         )
 
-
-        text = st_keyup(
-            "Your text",
+        text = live_input(
             value="",
             key=f"live_text_{st.session_state.get('input_version', 0)}",
-            debounce=0,
-            label_visibility="collapsed",
-            placeholder="Type or paste your text...",
+            default="",
         ) or ""
 
         analyze_column, clear_column = st.columns(2)
