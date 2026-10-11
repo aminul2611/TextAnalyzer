@@ -51,8 +51,7 @@ fun_labels = {}
 def analyze_text():
     text = text_input.get("1.0", "end-1c")
 
-    # Your requested naming:
-    # Hello World -> Total word: 10, Characters: 2
+
     counts = {
         "total_word": sum(
             not char.isspace() for char in text
@@ -228,7 +227,7 @@ window.bind("<Button-4>", scroll_page)
 window.bind("<Button-5>", scroll_page)
 
 
-# ---------- Heading Left + Input Right ----------
+#Heading Left + Input Right
 
 top_section = tk.Frame(page, bg=BG)
 top_section.pack(fill="x", padx=16, pady=(16, 12))
@@ -611,7 +610,7 @@ for index, (key, title, accent, background) in enumerate(STAT_STYLES):
     )
 
 
-# ---------- Footer ----------
+# ---------- Footer
 footer = tk.Frame(page, bg=BG)
 footer.pack(pady=(10, 12))
 
@@ -634,7 +633,7 @@ tk.Label(
 ).pack()
 
 
-# ---------- Start ----------
+# Start
 text_input.edit_modified(False)
 analyze_text()
 text_input.focus_set()
