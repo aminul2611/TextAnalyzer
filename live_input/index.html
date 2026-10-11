@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+    body {
+        margin: 0;
+        padding: 2px;
+        font-family: "Segoe UI", sans-serif;
+    }
+
+    textarea {
+        box-sizing: border-box;
+        width: 100%;
+        height: 95px;
+        padding: 10px 12px;
+        border: 1px solid #E1E6F0;
+        border-radius: 10px;
+        background: #F7F9FD;
+        color: #18233B;
+        font: 15px "Segoe UI", sans-serif;
+        resize: none;
+        outline: none;
+    }
+
+    textarea:focus {
+        border-color: #A59EFF;
+        background: white;
+    }
+</style>
+</head>
+<body>
+<textarea
+    id="editor"
+    aria-label="Your text"
+    placeholder="Type or paste your text..."
+></textarea>
+
+<script>
+    const editor = document.getElementById("editor");
+    let initialized = false;
+
+    function send(type, data = {}) {
+        window.parent.postMessage({
+            isStreamlitMessage: true,
+            type: type,
+            ...data
+        }, "*");
+    }
+
+    window.addEventListener("message", function(event) {
+        if (event.source !== window.parent) return;
+        if (event.data.type !== "streamlit:render") return;
+
+        if (!initialized) {
+            editor.value = event.data.args.value || "";
+            initialized = true;
+        }
+
+        send("streamlit:setFrameHeight", {height: 105});
+    });
+
+    editor.addEventListener("input", function() {
+        send("streamlit:setComponentValue", {
+            value: editor.value,
+            dataType: "json"
+        });
+    });
+
+    send("streamlit:componentReady", {apiVersion: 1});
+    send("streamlit:setFrameHeight", {height: 105});
+</script>
+</body>
+</html>
