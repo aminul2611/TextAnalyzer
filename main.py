@@ -22,7 +22,7 @@ STAT_STYLES = [
     ("characters", "▤  Characters", "#0284C7", "#EAF6FF"),
     ("uppercase", "↑  Uppercase", "#059669", "#E7F8F0"),
     ("lowercase", "↓  Lowercase", "#DB2777", "#FDECF5"),
-    ("digits", "# No  Digits", "#E11D48", "#FFECEF"),
+    ("digits", "🔢  Number", "#E11D48", "#FFECEF"),
     ("symbols", "✦  Symbols", "#4F46E5", "#ECEEFF"),
     ("spaces", "↔  Spaces / gaps", "#475569", "#EDF2F7"),
     ("lines", "☰  Lines", "#EA580C", "#FFF1E7"),

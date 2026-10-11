@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2807959-a794-43b2-bdc4-0b1f8570e955" name="Changes" comment="Chackpoint add">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="c2807959-a794-43b2-bdc4-0b1f8570e955" name="Changes" comment="Live Server" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,23 +41,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0000015430397435" />
-      <entry key="S60" value="1.001754709735526" />
-      <entry key="M2" value="1.0613300928679812" />
-      <entry key="M5" value="1.8505410326805989" />
-      <entry key="M10" value="4.062812779244744" />
-      <entry key="M15" value="6.037836610293694" />
-      <entry key="M30" value="10.107396789596836" />
-      <entry key="H1" value="15.120224428200904" />
-      <entry key="H2" value="20.45456278274986" />
-      <entry key="H4" value="24.77161330431038" />
-      <entry key="D1" value="29.79020256024161" />
-      <entry key="W1" value="30.82233123818302" />
+      <entry key="MS100" value="1.000000002154502" />
+      <entry key="MS500" value="1.0196528957546918" />
+      <entry key="S2" value="1.5538108695380024" />
+      <entry key="S5" value="2.180218484015618" />
+      <entry key="S10" value="2.5327491090737055" />
+      <entry key="S30" value="2.829285733868309" />
+      <entry key="S60" value="2.9126150336966843" />
+      <entry key="M2" value="2.957233226533674" />
+      <entry key="M5" value="3.114357437461583" />
+      <entry key="M10" value="4.076855583791223" />
+      <entry key="M15" value="5.4991460426256555" />
+      <entry key="M30" value="9.507474896977635" />
+      <entry key="H1" value="15.133634411943005" />
+      <entry key="H2" value="21.323800015730395" />
+      <entry key="H4" value="26.446007118018088" />
+      <entry key="D1" value="32.518398607465286" />
+      <entry key="W1" value="33.781999199583595" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -82,23 +79,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.6372803136596311" />
-      <entry key="MS500" value="0.9138314502294005" />
-      <entry key="S2" value="0.9777245612102328" />
-      <entry key="S5" value="0.9910295632640791" />
-      <entry key="S10" value="0.995504677670617" />
-      <entry key="S30" value="0.9985008046129519" />
-      <entry key="S60" value="1.0009775521944948" />
-      <entry key="M2" value="1.0605070171427835" />
-      <entry key="M5" value="1.8488976048265302" />
-      <entry key="M10" value="4.061172255613831" />
-      <entry key="M15" value="6.036375010731885" />
-      <entry key="M30" value="10.106219910470697" />
-      <entry key="H1" value="15.119323539834557" />
-      <entry key="H2" value="20.453960513598965" />
-      <entry key="H4" value="24.77125714283958" />
-      <entry key="D1" value="29.790133459532093" />
-      <entry key="W1" value="30.82232109477777" />
+      <entry key="MS100" value="0.9330329936323942" />
+      <entry key="MS500" value="1.0057688565155554" />
+      <entry key="S2" value="1.5492638599243973" />
+      <entry key="S5" value="2.1778261745117566" />
+      <entry key="S10" value="2.53138406989479" />
+      <entry key="S30" value="2.8287824355007927" />
+      <entry key="S60" value="2.912356534890122" />
+      <entry key="M2" value="2.9571010766747747" />
+      <entry key="M5" value="3.114187213515421" />
+      <entry key="M10" value="4.076390658554892" />
+      <entry key="M15" value="5.498521943089633" />
+      <entry key="M30" value="9.506707987732158" />
+      <entry key="H1" value="15.132906954413036" />
+      <entry key="H2" value="21.323258249620523" />
+      <entry key="H4" value="26.44566890351495" />
+      <entry key="D1" value="32.51832995256742" />
+      <entry key="W1" value="33.7819890430887" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -145,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1791720550052</updated>
-      <workItem from="1791720550679" duration="11904000" />
+      <workItem from="1791720550679" duration="12536000" />
     </task>
     <task id="LOCAL-00001" summary="First run">
       <option name="closed" value="true" />
@@ -171,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791731081148</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Live Server">
+      <option name="closed" value="true" />
+      <created>1791733613232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1791733613232</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +186,8 @@
     <MESSAGE value="First run" />
     <MESSAGE value="Color &amp; Some Design Add" />
     <MESSAGE value="Chackpoint add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chackpoint add" />
+    <MESSAGE value="Live Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Live Server" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TextAnalyzer$main.coverage" NAME="main Coverage Results" MODIFIED="1791732816499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
