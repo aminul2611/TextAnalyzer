@@ -312,21 +312,11 @@ with input_column:
             default="",
         ) or ""
 
-        analyze_column, clear_column = st.columns(2)
-
-        with analyze_column:
-            st.button(
-                "Analyze →",
-                type="primary",
-                use_container_width=True,
-            )
-
-        with clear_column:
-            st.button(
-                "Clear",
-                on_click=clear_text,
-                use_container_width=True,
-            )
+        st.button(
+            "Clear",
+            on_click=clear_text,
+            use_container_width=True,
+        )
 
         if text:
             st.markdown(
