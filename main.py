@@ -1,3 +1,4 @@
+
 import streamlit as st
 import unicodedata
 from pathlib import Path
@@ -24,9 +25,11 @@ TEXT = "#18233B"
 MUTED = "#778198"
 PRIMARY = "#635BFF"
 
+
+# Characters first, Total word second
 STAT_STYLES = [
-    ("total_word", "✎  Total word", "#DC2626", "#FFF1F2"),
     ("characters", "▤  Characters", "#0284C7", "#EAF6FF"),
+    ("total_word", "✎  Total word", "#DC2626", "#FFF1F2"),
     ("uppercase", "↑  Uppercase", "#059669", "#E7F8F0"),
     ("lowercase", "↓  Lowercase", "#DB2777", "#FDECF5"),
     ("digits", "🔢  Number", "#E11D48", "#FFECEF"),
@@ -34,6 +37,7 @@ STAT_STYLES = [
     ("spaces", "↔  Spaces / gaps", "#475569", "#EDF2F7"),
     ("lines", "☰  Lines", "#EA580C", "#FFF1E7"),
 ]
+
 
 FUN_MESSAGES = {
     "total_word": "Every character has an ID. No hiding!",
@@ -45,6 +49,7 @@ FUN_MESSAGES = {
     "spaces": "Social distancing for secret agents!",
     "lines": "New checkpoint. Same sleepy guard!",
 }
+
 
 MESSAGE_COLORS = {
     "total_word": "#2563EB",
@@ -61,28 +66,44 @@ MESSAGE_COLORS = {
 # ---------- Functions ----------
 def analyze_text(text):
     return {
-        # Your naming:
-        # Hello World -> Total word: 10, Characters: 2
-        "total_word": sum(
+        # Total number of words
+        "total_word": len(text.split()),
+
+        # Total characters excluding whitespace
+        "characters": sum(
             not char.isspace() for char in text
         ),
-        "characters": len(text.split()),
-        "uppercase": sum(char.isupper() for char in text),
-        "lowercase": sum(char.islower() for char in text),
-        "digits": sum(char.isdecimal() for char in text),
+
+        "uppercase": sum(
+            char.isupper() for char in text
+        ),
+
+        "lowercase": sum(
+            char.islower() for char in text
+        ),
+
+        "digits": sum(
+            char.isdecimal() for char in text
+        ),
+
         "symbols": sum(
             unicodedata.category(char)[0] in {"P", "S"}
             for char in text
         ),
-        "spaces": sum(char.isspace() for char in text),
+
+        "spaces": sum(
+            char.isspace() for char in text
+        ),
+
         "lines": text.count("\n") + 1 if text else 0,
     }
 
 
-    def clear_text():
-        st.session_state["input_version"] = (
-                st.session_state.get("input_version", 0) + 1
-        )
+# ---------- Clear Function ----------
+def clear_text():
+    st.session_state["input_version"] = (
+        st.session_state.get("input_version", 0) + 1
+    )
 
 
 # ---------- Design ----------
@@ -264,14 +285,10 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-def clear_text():
-    st.session_state["input_version"] = (
-        st.session_state.get("input_version", 0) + 1
-    )
-
 
 # ---------- Heading Left + Input Right ----------
 heading_column, input_column = st.columns([2, 3])
+
 
 with heading_column:
     st.markdown(
@@ -290,6 +307,7 @@ with heading_column:
         """,
         unsafe_allow_html=True,
     )
+
 
 with input_column:
     with st.container(border=True):
@@ -335,16 +353,19 @@ with input_column:
 # ---------- Results ----------
 counts = analyze_text(text)
 
+
+# Text overview only
 st.markdown(
     """
     <div class="overview">
         <span class="overview-title">Text overview</span>
-        <span class="overview-count">8 checkpoints</span>
     </div>
     """,
     unsafe_allow_html=True,
 )
 
+
+# ---------- Statistics Cards ----------
 for index in range(0, len(STAT_STYLES), 2):
     columns = st.columns(2)
 
