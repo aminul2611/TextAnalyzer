@@ -15,6 +15,7 @@ This project was developed as part of **Assignment 1** for the Cloud Computing c
 ## Technologies Used
 
 - Python
+- Html
 - Git
 - GitHub
 
