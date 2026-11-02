@@ -2,7 +2,7 @@
 
 **TextAnalyzer** is a Python-based project developed to analyze text and extract useful information from textual data.
 
-This project was developed as part of **Assignment 1** for the Cloud Computing course at Southwest University of Science and Technology (SWUST).
+This project was developed as part of **Assignment 1** for the athematical Foundations of Computer Scince course at Southwest University of Science and Technology (SWUST).
 
 ## Features
 
@@ -56,7 +56,7 @@ Replace `main.py` with the actual Python file name if your project uses a differ
 - **Project Name:** TextAnalyzer
 - **Developer:** Md. Aminul Islam
 - **University:** Southwest University of Science and Technology (SWUST)
-- **Course:** Mathematical Foundations Of Computer Scince
+- **Course:** Mathematical Foundations of Computer Scince
 - **Assignment:** Assignment 1
 
 ## Repository
